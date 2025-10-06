@@ -358,6 +358,12 @@ const menuItems = computed(() => {
       ],
     },
     {
+      name: 'CRM',
+      label: 'CRM',
+      icon: 'i-lucide-database',
+      to: accountScopedRoute('crm_dashboard_index'),
+    },
+    {
       name: 'Portals',
       label: t('SIDEBAR.HELP_CENTER.TITLE'),
       icon: 'i-lucide-library-big',
